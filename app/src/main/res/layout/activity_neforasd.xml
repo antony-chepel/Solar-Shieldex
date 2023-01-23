@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/slr_bg"
+    android:layout_height="match_parent"
+    tools:context=".jcuxhd.Resuwhhusdax">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51">
+
+        <ImageView
+            android:id="@+id/mcxijvxc"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="wsasd"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/slr_shiled_it_1" />
+
+        <ImageView
+            android:id="@+id/ijxjchuhufd"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="bnmggf"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/slr_shiled_it_2" />
+
+        <ImageView
+            android:id="@+id/jcxvji"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="lpouyu"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/slr_shiled_it_3" />
+
+
+        <ImageView
+            android:id="@+id/bijvjb"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="ssaxzc"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/slr_shiled_it_4" />
+
+        <ImageView
+            android:id="@+id/xozkjixchus"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="rerwe"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/slr_shiled_it_5" />
+
+        <ImageView
+            android:id="@+id/udiwqdo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="jgfhg"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/slr_shiled_it_3" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/fifd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/slr_reg"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="250dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/clr_slr"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/okdidi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catched : 0"
+                android:fontFamily="@font/slr_bold"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/slr_bold"
+        android:text="Catch secrets items in time"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

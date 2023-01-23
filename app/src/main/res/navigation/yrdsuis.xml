@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filter_navvv"
+    app:startDestination="@id/judte">
+
+    <fragment
+        android:id="@+id/judte"
+        android:name="com.webelinx.Rooms.Exits.EscapeRoom.Fre.nkicuxgyd.Greidudhucx"
+        android:label="cicvhd"
+        tools:layout="@layout/cpsoaaos" >
+        <action
+            android:id="@+id/ibuygv"
+            app:destination="@id/cofidhue"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/cofidhue"
+        android:name="com.webelinx.Rooms.Exits.EscapeRoom.Fre.jcuxhd.Hncjcxyggdse"
+        android:label="xoiuhdfe"
+        tools:layout="@layout/niugfif" >
+        <action
+            android:id="@+id/imuby"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/firuhdsi" />
+    </fragment>
+    <fragment
+        android:id="@+id/firuhdsi"
+        android:name="com.webelinx.Rooms.Exits.EscapeRoom.Fre.jiduygc.Fersusuidaushd"
+        android:label="nibuhb"
+        tools:layout="@layout/wsodijs" >
+        <action
+            android:id="@+id/xodijscijxvko"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/mbkovbij" />
+    </fragment>
+    <fragment
+        android:id="@+id/mbkovbij"
+        android:name="com.webelinx.Rooms.Exits.EscapeRoom.Fre.jcuxhd.Rwiisuxchuz"
+        android:label="ckivuhcvji"
+        tools:layout="@layout/bsgvsdgvw" >
+        <action
+            android:id="@+id/ifuijvcods"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/xoodiduhcygxtfftds" />
+    </fragment>
+    <fragment
+        android:id="@+id/xoodiduhcygxtfftds"
+        android:name="com.webelinx.Rooms.Exits.EscapeRoom.Fre.jcuxhd.Eiwusudhwa"
+        android:label="nkvicugygycv"
+        tools:layout="@layout/ncxuygds" />
+</navigation>
